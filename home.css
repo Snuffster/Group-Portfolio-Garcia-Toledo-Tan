@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+WELCOME-V3.gif {
+  justify-content: center;
+  width: 50px;
+  height: 100px;
+  object-fit: scale-down;
+  display: block;
+}
+
+/* Just to make a warmer welcome! */
+.img_padders {
+  background-color: #114B5F;
+  border-radius: 7px;
+}
+
+body {
+  margin: 0;
+  background-color: #ef6f6c;
+  font-family: 'Comic sans MS';
+}
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: -50px;
+  background: #00abc2;
+  color: #ECEBE4;
+  justify-content: center;
+  font-family: 'Comic sans MS';
+}
+
+.navbar {
+  display: flex;
+  background-color: #028090;
+  font-family: 'Comic sans MS';
+}
+
+.navbar2 {
+  display: flex;
+  background-color: #028090;
+  width: 50%;
+  justify-content: center;
+  font-family: 'Comic sans MS';
+}
+
+.navbar a {
+  color: #ECEBE4;
+  padding: 15px 23.2%;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Comic sans MS';
+}
+
+/* Changes color when the cursor hovers on it */
+.navbar a:hover {
+  background-color: #0095a8;
+  color: #00515c;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* This will make 2 columns that will sit next to each other */
+.side {
+  flex: 30%;
+  background-color: #5541af11;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color:  #028090;
+  border-radius: 7px;
+  color: #ECEBE4;
+  padding: 20px;
+  margin: center;
+}
+
+/* Fake image.. well what? Its just a placeholder! */
+.fakeimg {
+  justify-content: center;
+  background-color: #114B5F;
+  color: #ECEBE4;
+  width: 100%;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: center;
+  font-family: 'Comic sans MS';
+}
+
+/* For more charm! */
+.silly_note{
+  color: #ECEBE4;
+  text-align: center;
+}
+
+/* Footer, just for laughs */
+.footer {
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  background: #028090;
+  border-radius: 7px;
+  color: #ECEBE4;
+  font-family: 'Comic sans MS';
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+
+.link {
+  color: #ECEBE4;
+}

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic sans MS';
+  margin: 0;
+  background-color: #ef6f6c;
+}
+
+.paddings {
+background-color: #114B5F;
+border-radius: 7px;
+}
+
+.goalz{
+  width: 350px
+}
+
+.header {
+  padding: 60px;
+  margin-top: -40px;
+  margin-bottom: -50px;
+  font-family: 'Comic sans MS';
+  text-align: center;
+  background: #00abc2;
+  color: #ECEBE4;
+}
+
+.navbar {
+  display: flex;
+  background-color: #028090;
+  font-family: 'Comic sans MS';
+}
+
+.navbar2 a {
+  display: flex;
+  background-color: #114b5f;
+  padding: 13px 15.8%;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Comic sans MS';
+  border-radius: 7px;
+}
+
+.navbar a {
+  color: #ECEBE4;
+  padding: 15px 23.2%;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Comic sans MS';
+}
+
+/* Changes color when the cursor hovers on it */
+.navbar a:hover {
+  background-color: #0095a8;
+  color: #00515c;
+}
+
+.navbar2:hover {
+  background-color: #0095a8;
+  color: #00515c;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* This will make 2 columns that will sit next to each other */
+.side {
+  flex: 30%;
+  background-color: #ef6f6c;
+  padding: 20px;
+
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #028090;
+  border-radius: 7px;
+  color: #ECEBE4;
+  padding: 20px;
+}
+
+/* Fake image.. well what? Its just a placeholder! */
+.fakeimg {
+  background-color: #114b5f;
+  text-align: center;
+  color: #ECEBE4;
+  width: 100%;
+  padding: 20px;
+  border-radius: 7px;
+  font-family: 'Comic sans MS';
+}
+
+/* Footer, just for laughs */
+.footer {
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  background: #114b5f;
+  border-radius: 7px;
+  color: #ECEBE4;
+  font-family: 'Comic sans MS';
+}
+
+@media screen and (max-width: 700px) {
+
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.link {
+  color: #ECEBE4;
+}
